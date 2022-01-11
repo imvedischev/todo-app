@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>My To-Do List</title>
+    <link th:href="@{/styles/main.css}" rel="stylesheet" type="text/css"/>
+
+</head>
+<body>
+<table id="noteList">
+
+</table>
+<form action="/">
+    <input id="title" placeholder="What should be done?">
+    <button onclick="createNote()">OK!</button>
+</form>
+<script type="text/javascript" th:src="@{/js/main.js}"></script>
+</body>
+</html>
